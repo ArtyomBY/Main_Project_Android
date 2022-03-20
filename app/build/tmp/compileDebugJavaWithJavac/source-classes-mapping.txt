@@ -1,0 +1,28 @@
+com/example/main_project_android/classes/Product.java
+ com.example.main_project_android.classes.Product
+com/example/main_project_android/databinding/ActivityBasketBinding.java
+ com.example.main_project_android.databinding.ActivityBasketBinding
+com/example/main_project_android/BasketAdapter.java
+ com.example.main_project_android.BasketAdapter
+com/example/main_project_android/BuildConfig.java
+ com.example.main_project_android.BuildConfig
+com/example/main_project_android/classes/Catalog.java
+ com.example.main_project_android.classes.Catalog
+com/example/main_project_android/databinding/ActivityItemProductCatalogBinding.java
+ com.example.main_project_android.databinding.ActivityItemProductCatalogBinding
+com/example/main_project_android/databinding/ActivityProductBinding.java
+ com.example.main_project_android.databinding.ActivityProductBinding
+com/example/main_project_android/classes/Basket.java
+ com.example.main_project_android.classes.Basket
+com/example/main_project_android/databinding/ProductCatalogBinding.java
+ com.example.main_project_android.databinding.ProductCatalogBinding
+com/example/main_project_android/databinding/ActivityItemBasketBinding.java
+ com.example.main_project_android.databinding.ActivityItemBasketBinding
+com/example/main_project_android/ProductCatalogAdapter.java
+ com.example.main_project_android.ProductCatalogAdapter
+com/example/main_project_android/ProductActivity.java
+ com.example.main_project_android.ProductActivity
+com/example/main_project_android/BasketActivity.java
+ com.example.main_project_android.BasketActivity
+com/example/main_project_android/MainActivity_Catalog.java
+ com.example.main_project_android.MainActivity_Catalog
