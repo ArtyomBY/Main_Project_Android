@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\1prog\.gradle\caches\transforms-3\aedac3ef7d5f2c617ead8656bf92c449\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\1prog\.gradle\caches\transforms-3\f14821d03ee43e8f3b2ecf4886784a60\transformed\navigation-ui-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\1prog\.gradle\caches\transforms-3\e28af2a57da205d1991628495b66e5fc\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
@@ -58,25 +58,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\1prog\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\1prog\.gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\1prog\.gradle\caches\transforms-3\e28af2a57da205d1991628495b66e5fc\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\1prog\.gradle\caches\transforms-3\e28af2a57da205d1991628495b66e5fc\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\1prog\.gradle\caches\transforms-3\a33d520c58fa7860ced27355a344e679\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -107,34 +107,40 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\1prog\.gradle\cach
 		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:11:9-58
-activity#com.example.main_project_android.BasketActivity
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:12:9-14:40
+activity#com.example.main_project_android.OrderActivity
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:12:9-14:39
 	android:exported
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:13:13-43
-activity#com.example.main_project_android.ProductActivity
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:13:13-42
+activity#com.example.main_project_android.BasketActivity
 ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:16:13-44
-activity#com.example.main_project_android.MainActivity_Catalog
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:18:9-26:20
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:16:13-43
+activity#com.example.main_project_android.ProductActivity
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:19:13-49
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:19:13-44
+activity#com.example.main_project_android.MainActivity_Catalog
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:22:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml

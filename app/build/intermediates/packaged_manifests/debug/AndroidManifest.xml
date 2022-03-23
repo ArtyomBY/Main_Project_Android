@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Main_Project_Android" >
         <activity
+            android:name="com.example.main_project_android.OrderActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.main_project_android.BasketActivity"
             android:exported="false" />
         <activity

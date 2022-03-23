@@ -4,8 +4,16 @@
         "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\activity_item_basket.xml"
     },
     {
+        "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_list_activity.xml",
+        "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\order_list_activity.xml"
+    },
+    {
         "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_item_product_catalog.xml",
         "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\activity_item_product_catalog.xml"
+    },
+    {
+        "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order.xml",
+        "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
         "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_catalog.xml",
