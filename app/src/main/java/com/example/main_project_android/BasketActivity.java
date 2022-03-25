@@ -3,7 +3,13 @@ package com.example.main_project_android;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+
+import com.example.main_project_android.classes.Basket;
+import com.example.main_project_android.classes.Product;
+
+import java.util.List;
 
 public class BasketActivity extends AppCompatActivity {
 
@@ -20,6 +26,10 @@ public class BasketActivity extends AppCompatActivity {
 //        totalPrice += i;
 //        tvTotalPrice.setText(totalPrice);
 
+
+    }
+
+    public void pay_for_the_shopping_cart(View view) {
 
     }
 }
