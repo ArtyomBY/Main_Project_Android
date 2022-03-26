@@ -4,6 +4,7 @@ package com.example.main_project_android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
@@ -20,10 +21,15 @@ public final class ProductCatalogBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button goToBasket;
+
+  @NonNull
   public final ListView productList;
 
-  private ProductCatalogBinding(@NonNull LinearLayout rootView, @NonNull ListView productList) {
+  private ProductCatalogBinding(@NonNull LinearLayout rootView, @NonNull Button goToBasket,
+      @NonNull ListView productList) {
     this.rootView = rootView;
+    this.goToBasket = goToBasket;
     this.productList = productList;
   }
 
@@ -54,13 +60,19 @@ public final class ProductCatalogBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.goToBasket;
+      Button goToBasket = ViewBindings.findChildViewById(rootView, id);
+      if (goToBasket == null) {
+        break missingId;
+      }
+
       id = R.id.product_list;
       ListView productList = ViewBindings.findChildViewById(rootView, id);
       if (productList == null) {
         break missingId;
       }
 
-      return new ProductCatalogBinding((LinearLayout) rootView, productList);
+      return new ProductCatalogBinding((LinearLayout) rootView, goToBasket, productList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

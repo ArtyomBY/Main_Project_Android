@@ -72,29 +72,12 @@
         "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\ustrica.jpg"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\merged_res\\debug\\layout_order_list_activity.xml.flat",
-        "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\order_list_activity.xml"
-    },
-    {
-        "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order.xml.flat",
-        "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\activity_order.xml"
-    },
-    {
-        "merged": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_basket.xml.flat",
-        "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\layout\\activity_item_basket.xml"
-=======
         "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket_add.png.flat",
         "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket_add.png"
     },
     {
         "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
->>>>>>> Stashed changes
     },
     {
         "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",

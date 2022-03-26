@@ -36,6 +36,14 @@
 
     </LinearLayout>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_payment"
+        android:onClick="pay_for_the_shopping_cart"
+        android:text="Оплатить корзину"/>
+
+
     <ListView
         android:id="@+id/basketList"
         android:layout_width="match_parent"

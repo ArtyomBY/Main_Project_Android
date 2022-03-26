@@ -4,30 +4,7 @@
             "outputFile": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "843"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "732",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1459"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\1prog\\.gradle\\caches\\transforms-3\\f8d734a7d44310d84014d6ed621ec293\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
-=======
                     "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\f8d734a7d44310d84014d6ed621ec293\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

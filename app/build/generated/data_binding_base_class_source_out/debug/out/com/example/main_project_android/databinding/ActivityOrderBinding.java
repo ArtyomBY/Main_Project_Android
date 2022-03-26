@@ -4,25 +4,47 @@ package com.example.main_project_android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.main_project_android.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityOrderBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
-  private ActivityOrderBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final TextView orderNumber;
+
+  @NonNull
+  public final TextView orderStatus;
+
+  @NonNull
+  public final TextView orderStructure;
+
+  @NonNull
+  public final ListView orderStructureList;
+
+  private ActivityOrderBinding(@NonNull RelativeLayout rootView, @NonNull TextView orderNumber,
+      @NonNull TextView orderStatus, @NonNull TextView orderStructure,
+      @NonNull ListView orderStructureList) {
     this.rootView = rootView;
+    this.orderNumber = orderNumber;
+    this.orderStatus = orderStatus;
+    this.orderStructure = orderStructure;
+    this.orderStructureList = orderStructureList;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +65,38 @@ public final class ActivityOrderBinding implements ViewBinding {
 
   @NonNull
   public static ActivityOrderBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.orderNumber;
+      TextView orderNumber = ViewBindings.findChildViewById(rootView, id);
+      if (orderNumber == null) {
+        break missingId;
+      }
 
-    return new ActivityOrderBinding((ConstraintLayout) rootView);
+      id = R.id.orderStatus;
+      TextView orderStatus = ViewBindings.findChildViewById(rootView, id);
+      if (orderStatus == null) {
+        break missingId;
+      }
+
+      id = R.id.orderStructure;
+      TextView orderStructure = ViewBindings.findChildViewById(rootView, id);
+      if (orderStructure == null) {
+        break missingId;
+      }
+
+      id = R.id.orderStructureList;
+      ListView orderStructureList = ViewBindings.findChildViewById(rootView, id);
+      if (orderStructureList == null) {
+        break missingId;
+      }
+
+      return new ActivityOrderBinding((RelativeLayout) rootView, orderNumber, orderStatus,
+          orderStructure, orderStructureList);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

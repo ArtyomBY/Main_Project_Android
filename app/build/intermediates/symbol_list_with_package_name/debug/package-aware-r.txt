@@ -2757,6 +2757,7 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id goToBasket
 id gone
 id graph
 id graph_wrap
@@ -2881,6 +2882,10 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id orderNumber
+id orderStatus
+id orderStructure
+id orderStructureList
 id order_list_id
 id outline
 id outward

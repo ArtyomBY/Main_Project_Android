@@ -4,6 +4,7 @@ package com.example.main_project_android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -24,12 +25,16 @@ public final class ActivityBasketBinding implements ViewBinding {
   public final ListView basketList;
 
   @NonNull
+  public final Button btnPayment;
+
+  @NonNull
   public final TextView tvTotalPrice;
 
   private ActivityBasketBinding(@NonNull LinearLayout rootView, @NonNull ListView basketList,
-      @NonNull TextView tvTotalPrice) {
+      @NonNull Button btnPayment, @NonNull TextView tvTotalPrice) {
     this.rootView = rootView;
     this.basketList = basketList;
+    this.btnPayment = btnPayment;
     this.tvTotalPrice = tvTotalPrice;
   }
 
@@ -66,13 +71,20 @@ public final class ActivityBasketBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_payment;
+      Button btnPayment = ViewBindings.findChildViewById(rootView, id);
+      if (btnPayment == null) {
+        break missingId;
+      }
+
       id = R.id.tvTotalPrice;
       TextView tvTotalPrice = ViewBindings.findChildViewById(rootView, id);
       if (tvTotalPrice == null) {
         break missingId;
       }
 
-      return new ActivityBasketBinding((LinearLayout) rootView, basketList, tvTotalPrice);
+      return new ActivityBasketBinding((LinearLayout) rootView, basketList, btnPayment,
+          tvTotalPrice);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

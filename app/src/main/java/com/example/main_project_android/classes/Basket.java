@@ -13,6 +13,10 @@ public class Basket {
         basket_status = false;
     }
 
+    public void addToProductList_forPayment() {
+        productList_forPayment.add(new Product());
+    };
+
 
     public void deleteProduct_fromBasket(String nameDish){ // int id
 

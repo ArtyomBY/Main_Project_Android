@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.main_project_android.classes.Basket;
+import com.example.main_project_android.classes.Product;
+
 public class ProductActivity extends AppCompatActivity {
 
     TextView tvNameDish;
@@ -24,6 +27,7 @@ public class ProductActivity extends AppCompatActivity {
 
 
     public void put_in_basket(View view) {
+        //Basket basket = new Basket()
         Intent i = new Intent(view.getContext(), BasketActivity.class);
 //        int a = 20;
 //        i.putExtra("dishPrice", a);

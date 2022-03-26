@@ -93,47 +93,7 @@
                     }
                 },
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Main_Project(Artyom)\\Main_Project_Android(1)\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "843"
-                    },
-                    "to": {
-                        "startLines": "5564",
-                        "startColumns": "4",
-                        "startOffsets": "379378",
-                        "endLines": "5576",
-                        "endColumns": "12",
-                        "endOffsets": "380105"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\1prog\\.gradle\\caches\\transforms-3\\940f6159f5551d04c5900cf56e10f7a6\\transformed\\jetified-savedstate-1.1.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "53",
-                        "endOffsets": "104"
-                    },
-                    "to": {
-                        "startLines": "1528",
-                        "startColumns": "4",
-                        "startOffsets": "92472",
-                        "endColumns": "53",
-                        "endOffsets": "92521"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\1prog\\.gradle\\caches\\transforms-3\\df90e45755e08a70af4a2e6a8f949159\\transformed\\navigation-fragment-2.4.1\\res\\values\\values.xml",
-=======
                     "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\df90e45755e08a70af4a2e6a8f949159\\transformed\\navigation-fragment-2.4.1\\res\\values\\values.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,9,12",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -226,20 +186,12 @@
                 {
                     "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\1ad7e64fbfa1ec575baaf2daa876363e\\transformed\\drawerlayout-1.1.1\\res\\values\\values.xml",
                     "from": {
-<<<<<<< Updated upstream
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-=======
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "55,111,159,211",
                         "endLines": "2,3,4,8",
                         "endColumns": "55,47,51,24",
                         "endOffsets": "106,154,206,426"
->>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "115,118,927,10143",
@@ -384,20 +336,12 @@
                 {
                     "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-<<<<<<< Updated upstream
-                        "startLines": "1,3,5,4,6,2",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "17,121,228,183,283,76",
-                        "endColumns": "57,60,53,43,61,43",
-                        "endOffsets": "70,177,277,222,340,115"
-=======
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "102",
                         "endLines": "14",
                         "endColumns": "12",
                         "endOffsets": "843"
->>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "5564",
@@ -502,19 +446,11 @@
                 {
                     "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\297743ef38a765569e85995e5d62a64b\\transformed\\jetified-startup-runtime-1.0.0\\res\\values\\values.xml",
                     "from": {
-<<<<<<< Updated upstream
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "90,149",
-                        "endColumns": "57,55",
-                        "endOffsets": "143,200"
-=======
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "82",
                         "endOffsets": "133"
->>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "1609",
