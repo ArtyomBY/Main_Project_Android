@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Main_Project_Android">
         <activity
+            android:name=".UserProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".OrderActivity"
             android:exported="true" />
         <activity
