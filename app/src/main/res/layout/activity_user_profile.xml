@@ -49,4 +49,12 @@
         android:text="Ивановская область, город Иваново"
         android:id="@+id/profile_region"/>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="#BAFF97"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomNavigationView"
+        app:menu="@menu/bottom_navigation_view"/>
+
 </RelativeLayout>

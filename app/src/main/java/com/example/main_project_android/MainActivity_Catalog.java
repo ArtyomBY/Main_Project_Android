@@ -11,20 +11,38 @@ import android.widget.TextView;
 import com.example.main_project_android.classes.Basket;
 import com.example.main_project_android.classes.Catalog;
 import com.example.main_project_android.classes.Product;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity_Catalog extends Activity {
 
 
     ListView lv_catalog;
     Button goToBasketButton;
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_catalog);
 
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        bottomNavigationView.setSelectedItemId(R.id.catatlog_menu);
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            switch (item.getItemId()){
+                case R.id.basket_menu:
+                    Intent intent = new Intent(this, BasketActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.profil_menu:
+                    Intent intent2 = new Intent(this, UserProfileActivity.class);
+                    startActivity(intent2);
+                    break;
+            }
+
+            return true;
+        });
+
         lv_catalog = findViewById(R.id.product_list);
-        goToBasketButton = findViewById(R.id.goToBasket);
         ProductCatalogAdapter adapter = new ProductCatalogAdapter(this, makeProduct());
         lv_catalog.setAdapter(adapter);
 

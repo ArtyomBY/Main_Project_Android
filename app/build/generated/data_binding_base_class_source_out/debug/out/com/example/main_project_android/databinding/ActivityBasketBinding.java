@@ -10,37 +10,48 @@ import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.main_project_android.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityBasketBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final ListView basketList;
 
   @NonNull
+  public final BottomNavigationView bottomNavigationView;
+
+  @NonNull
   public final Button btnPayment;
+
+  @NonNull
+  public final LinearLayout linearLayoutBasketDescription;
 
   @NonNull
   public final TextView tvTotalPrice;
 
-  private ActivityBasketBinding(@NonNull LinearLayout rootView, @NonNull ListView basketList,
-      @NonNull Button btnPayment, @NonNull TextView tvTotalPrice) {
+  private ActivityBasketBinding(@NonNull ConstraintLayout rootView, @NonNull ListView basketList,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull Button btnPayment,
+      @NonNull LinearLayout linearLayoutBasketDescription, @NonNull TextView tvTotalPrice) {
     this.rootView = rootView;
     this.basketList = basketList;
+    this.bottomNavigationView = bottomNavigationView;
     this.btnPayment = btnPayment;
+    this.linearLayoutBasketDescription = linearLayoutBasketDescription;
     this.tvTotalPrice = tvTotalPrice;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -71,9 +82,21 @@ public final class ActivityBasketBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
+        break missingId;
+      }
+
       id = R.id.btn_payment;
       Button btnPayment = ViewBindings.findChildViewById(rootView, id);
       if (btnPayment == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout_basketDescription;
+      LinearLayout linearLayoutBasketDescription = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayoutBasketDescription == null) {
         break missingId;
       }
 
@@ -83,8 +106,8 @@ public final class ActivityBasketBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBasketBinding((LinearLayout) rootView, basketList, btnPayment,
-          tvTotalPrice);
+      return new ActivityBasketBinding((ConstraintLayout) rootView, basketList,
+          bottomNavigationView, btnPayment, linearLayoutBasketDescription, tvTotalPrice);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

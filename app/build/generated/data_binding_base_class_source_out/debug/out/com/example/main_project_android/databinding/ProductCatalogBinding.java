@@ -4,38 +4,38 @@ package com.example.main_project_android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.main_project_android.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ProductCatalogBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button goToBasket;
+  public final BottomNavigationView bottomNavigationView;
 
   @NonNull
   public final ListView productList;
 
-  private ProductCatalogBinding(@NonNull LinearLayout rootView, @NonNull Button goToBasket,
-      @NonNull ListView productList) {
+  private ProductCatalogBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull ListView productList) {
     this.rootView = rootView;
-    this.goToBasket = goToBasket;
+    this.bottomNavigationView = bottomNavigationView;
     this.productList = productList;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -60,9 +60,9 @@ public final class ProductCatalogBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.goToBasket;
-      Button goToBasket = ViewBindings.findChildViewById(rootView, id);
-      if (goToBasket == null) {
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
         break missingId;
       }
 
@@ -72,7 +72,8 @@ public final class ProductCatalogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ProductCatalogBinding((LinearLayout) rootView, goToBasket, productList);
+      return new ProductCatalogBinding((ConstraintLayout) rootView, bottomNavigationView,
+          productList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -17,9 +17,9 @@ public class BasketAdapter extends ArrayAdapter {
 
     private LayoutInflater inflater;
     private int layout;
-    private List<Product> basketList;
+    private Product[] basketList;
 
-    public BasketAdapter(Context context, int resource, List<Product> basketList) {
+    public BasketAdapter(Context context, int resource, Product[] basketList) {
         super(context, resource,  basketList);
         this.layout = resource;
         this.basketList = basketList;
@@ -34,7 +34,7 @@ public class BasketAdapter extends ArrayAdapter {
         TextView dishName = view.findViewById(R.id.textView);
         TextView dishPrice = view.findViewById(R.id.textView2);
 
-        Product product = basketList.get(position);
+        Product product = basketList[position];
 
         dishImage.setImageResource(product.getDishResource());
         dishName.setText(product.getDish());
