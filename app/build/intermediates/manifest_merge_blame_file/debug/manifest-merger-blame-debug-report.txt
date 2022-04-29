@@ -6,104 +6,104 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
+8-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml
+9-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:5:5-33:19
+11-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:5:5-33:19
 12        android:allowBackup="true"
-12-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\1prog\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\1\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:7:9-43
+15-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:8:9-41
+16-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:9:9-54
+17-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:10:9-35
+18-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.Main_Project_Android" >
-20-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:11:9-58
+20-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:11:9-58
 21        <activity
-21-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:12:9-14:39
+21-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:12:9-14:39
 22            android:name="com.example.main_project_android.UserProfileActivity"
-22-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:13:13-48
+22-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:13:13-48
 23            android:exported="true" />
-23-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:14:13-36
+23-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:14:13-36
 24        <activity
-24-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:15:9-17:39
+24-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:15:9-17:39
 25            android:name="com.example.main_project_android.OrderActivity"
-25-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:16:13-42
+25-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:16:13-42
 26            android:exported="true" />
-26-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:17:13-36
+26-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:17:13-36
 27        <activity
-27-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:18:9-20:40
+27-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:18:9-20:40
 28            android:name="com.example.main_project_android.BasketActivity"
-28-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:19:13-43
+28-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:19:13-43
 29            android:exported="false" />
-29-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:20:13-37
+29-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:20:13-37
 30        <activity
-30-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:21:9-23:40
+30-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:21:9-23:40
 31            android:name="com.example.main_project_android.ProductActivity"
-31-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:22:13-44
+31-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:22:13-44
 32            android:exported="false" />
-32-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:23:13-37
+32-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:23:13-37
 33        <activity
-33-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:24:9-32:20
+33-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:24:9-32:20
 34            android:name="com.example.main_project_android.MainActivity_Catalog"
-34-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:25:13-49
+34-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:25:13-49
 35            android:exported="true" >
-35-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:26:13-36
+35-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:26:13-36
 36            <intent-filter>
-36-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:27:13-31:29
+36-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:27:13-31:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:28:17-69
-37-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:28:25-66
+37-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:28:17-69
+37-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:28:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:30:17-77
-39-->C:\Main_Project(Artyom)\Main_Project_Android(1)\app\src\main\AndroidManifest.xml:30:27-74
+39-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:30:17-77
+39-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:30:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <provider
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 45            android:authorities="com.example.main_project_android.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 47            <meta-data
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1prog\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1prog\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1prog\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 53        </provider>
 54
 55        <uses-library
-55-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+55-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
 56            android:name="androidx.window.extensions"
-56-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+56-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
 57            android:required="false" />
-57-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+57-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
 58        <uses-library
-58-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+58-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
 59            android:name="androidx.window.sidecar"
-59-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+59-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
 60            android:required="false" />
-60-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+60-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
 61    </application>
 62
 63</manifest>
