@@ -1,54 +1,58 @@
 [
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration_buyer.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_registration_buyer.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_list_activity.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\order_list_activity.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_basket.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_basket.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_item_basket.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_basket.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user_profile.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_catalog.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\product_catalog.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_basket.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_basket.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_item_product_catalog.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_product_catalog.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_catalog.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\product_catalog.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\testlayout.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\testlayout.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_list_activity.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\order_list_activity.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_item_product_catalog.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_product_catalog.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_catalog.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_catalog.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_basket.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_basket.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user_profile.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_item_basket.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_basket.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration_buyer.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_registration_buyer.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_product.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_product.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_product.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_product.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order.xml",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_order.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_basket.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_basket.xml"
+    },
+    {
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_catalog.xml",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_catalog.xml"
     }
 ]

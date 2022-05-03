@@ -1,142 +1,142 @@
 [
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_order_list_activity.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\order_list_activity.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_kartoshka.jpeg.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\kartoshka.jpeg"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_product_catalog.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_product_catalog.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registration_buyer.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_registration_buyer.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket_delete.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket_delete.png"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_basket.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_basket.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.jpg.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\pizza.jpg"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_basket.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_basket.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_product.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_product.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_kartoshka.jpeg.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\kartoshka.jpeg"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_basket.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_basket.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_profil.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\profil.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.jpg.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\pizza.jpg"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_basket.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_basket.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_catalog.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\catalog.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_varenik.jpg.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\varenik.jpg"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket.png"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_profile.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_typical_user.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\typical_user.png"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_catalog.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\catalog.png"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_product_catalog.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\product_catalog.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_product_catalog.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_product_catalog.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_order.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_varenik.jpg.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\varenik.jpg"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_lupa.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\lupa.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_lupa.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\lupa.png"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registration_buyer.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_registration_buyer.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_basket.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_item_basket.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_navigation_view.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\menu\\bottom_navigation_view.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_basket.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_basket.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ustrica.jpg.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\ustrica.jpg"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket_add.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket_add.png"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket_add.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket_add.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_catalog.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_catalog.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_catalog.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_catalog.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_typical_user.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\typical_user.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ustrica.jpg.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\ustrica.jpg"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_product_catalog.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\product_catalog.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_product.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_product.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket_delete.png.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\drawable\\basket_delete.png"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_navigation_view.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\menu\\bottom_navigation_view.xml"
     },
     {
-        "merged": "D:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_order_list_activity.xml.flat",
-        "source": "D:\\programs for codding\\Main_Project_Android\\app\\src\\main\\res\\layout\\order_list_activity.xml"
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_profil.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\profil.png"
     }
 ]

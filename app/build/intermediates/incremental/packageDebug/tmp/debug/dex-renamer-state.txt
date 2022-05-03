@@ -1,19 +1,19 @@
-#Fri Apr 29 20:50:12 MSK 2022
+#Tue May 03 21:02:22 MSK 2022
 path.4=8/classes.dex
 path.3=6/classes.dex
 path.2=2/classes.dex
 path.1=0/classes.dex
 path.5=9/classes.dex
 path.0=classes.dex
-base.4=D\:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.3=D\:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.2=D\:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.1=D\:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=D\:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.3=C\:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.2=C\:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.1=C\:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
-base.5=D\:\\programs for codding\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.5=C\:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex

@@ -6,104 +6,106 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml
+8-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml
+9-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:5:5-33:19
+11-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:7:5-38:19
 12        android:allowBackup="true"
-12-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:11:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\1\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\1prog\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:12:9-43
 16        android:label="@string/app_name"
-16-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:13:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.Main_Project_Android" >
-20-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:11:9-58
-21        <activity
-21-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:12:9-14:39
-22            android:name="com.example.main_project_android.UserProfileActivity"
-22-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:13:13-48
-23            android:exported="true" />
-23-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:14:13-36
-24        <activity
-24-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:15:9-17:39
-25            android:name="com.example.main_project_android.OrderActivity"
-25-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:16:13-42
-26            android:exported="true" />
-26-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:17:13-36
-27        <activity
-27-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="com.example.main_project_android.BasketActivity"
-28-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:19:13-43
-29            android:exported="false" />
-29-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:20:13-37
-30        <activity
-30-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:21:9-23:40
-31            android:name="com.example.main_project_android.ProductActivity"
-31-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:22:13-44
-32            android:exported="false" />
-32-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:23:13-37
-33        <activity
-33-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:24:9-32:20
-34            android:name="com.example.main_project_android.MainActivity_Catalog"
-34-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:25:13-49
-35            android:exported="true" >
-35-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:26:13-36
-36            <intent-filter>
-36-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:27:13-31:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:28:17-69
-37-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:28:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:30:17-77
-39-->D:\programs for codding\Main_Project_Android\app\src\main\AndroidManifest.xml:30:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-45            android:authorities="com.example.main_project_android.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-53        </provider>
-54
-55        <uses-library
-55-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-56            android:name="androidx.window.extensions"
-56-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-57            android:required="false" />
-57-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-58        <uses-library
-58-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-59            android:name="androidx.window.sidecar"
-59-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-60            android:required="false" />
-60-->[androidx.window:window:1.0.0] C:\Users\1\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-61    </application>
-62
-63</manifest>
+17-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:14:9-54
+18        android:screenOrientation="portrait"
+18-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:9:9-45
+19        android:supportsRtl="true"
+19-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:15:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.Main_Project_Android" >
+21-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:16:9-58
+22        <activity
+22-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:17:9-19:39
+23            android:name="com.example.main_project_android.UserProfileActivity"
+23-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:18:13-48
+24            android:exported="true" />
+24-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:19:13-36
+25        <activity
+25-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:20:9-22:39
+26            android:name="com.example.main_project_android.OrderActivity"
+26-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:21:13-42
+27            android:exported="true" />
+27-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:22:13-36
+28        <activity
+28-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:23:9-25:40
+29            android:name="com.example.main_project_android.BasketActivity"
+29-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:24:13-43
+30            android:exported="false" />
+30-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:25:13-37
+31        <activity
+31-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:26:9-28:40
+32            android:name="com.example.main_project_android.ProductActivity"
+32-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:27:13-44
+33            android:exported="false" />
+33-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:28:13-37
+34        <activity
+34-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:29:9-37:20
+35            android:name="com.example.main_project_android.MainActivity_Catalog"
+35-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:30:13-49
+36            android:exported="true" >
+36-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:31:13-36
+37            <intent-filter>
+37-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:32:13-36:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:33:17-69
+38-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:33:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:35:17-77
+40-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:35:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+46            android:authorities="com.example.main_project_android.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1prog\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1prog\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\1prog\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+54        </provider>
+55
+56        <uses-library
+56-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+57            android:name="androidx.window.extensions"
+57-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+59        <uses-library
+59-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+60            android:name="androidx.window.sidecar"
+60-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0] C:\Users\1prog\.gradle\caches\transforms-3\09a5e9d7f702ea229ef09128ceac4045\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+62    </application>
+63
+64</manifest>

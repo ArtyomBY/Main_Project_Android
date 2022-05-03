@@ -4,6 +4,7 @@ package com.example.main_project_android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,12 +25,17 @@ public final class ProductCatalogBinding implements ViewBinding {
   public final BottomNavigationView bottomNavigationView;
 
   @NonNull
+  public final FrameLayout mainFrameLayout;
+
+  @NonNull
   public final ListView productList;
 
   private ProductCatalogBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigationView, @NonNull ListView productList) {
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout mainFrameLayout,
+      @NonNull ListView productList) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
+    this.mainFrameLayout = mainFrameLayout;
     this.productList = productList;
   }
 
@@ -66,6 +72,12 @@ public final class ProductCatalogBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.main_FrameLayout;
+      FrameLayout mainFrameLayout = ViewBindings.findChildViewById(rootView, id);
+      if (mainFrameLayout == null) {
+        break missingId;
+      }
+
       id = R.id.product_list;
       ListView productList = ViewBindings.findChildViewById(rootView, id);
       if (productList == null) {
@@ -73,7 +85,7 @@ public final class ProductCatalogBinding implements ViewBinding {
       }
 
       return new ProductCatalogBinding((ConstraintLayout) rootView, bottomNavigationView,
-          productList);
+          mainFrameLayout, productList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,9 +6,56 @@
     tools:context=".fragments.ProfileFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        tools:context=".UserProfileActivity">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp" />
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_below="@id/profileImage"
+            android:layout_marginTop="30sp"
+            android:text="Шаевич Фима Соломонович" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_below="@id/profile_name"
+            android:text="Покупатель"
+            android:id="@+id/profile_type"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_below="@id/profile_type"
+            android:text="10 А"
+            android:id="@+id/profile_class"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_below="@id/profile_class"
+            android:text="44 гимназия"
+            android:id="@+id/profile_school"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_below="@id/profile_school"
+            android:text="Ивановская область, город Иваново"
+            android:id="@+id/profile_region"/>
+
+    </RelativeLayout>
 
 </FrameLayout>

@@ -10,7 +10,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.example.main_project_android.ProductCatalogAdapter;
 import com.example.main_project_android.R;
+import com.example.main_project_android.classes.Product;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /**
@@ -69,6 +71,31 @@ public class CatalogFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_catalog, container, false);
+
+        View v = inflater.inflate(R.layout.fragment_catalog, container, false);
+
+        lv_catalog = v.findViewById(R.id.product_list);
+        ProductCatalogAdapter adapter = new ProductCatalogAdapter(v.getContext(), makeProduct());
+        lv_catalog.setAdapter(adapter);
+
+        return v;
+    }
+
+    public Product[] makeProduct() {
+        Product[] arr = new Product[3];
+
+        String[] dishes = {"Устрица", "Питца", "Пирог с картошкой"};
+        int[] prices = {10, 35, 16};
+
+        for (int i = 0; i < arr.length; i++) {
+            Product product = new Product();
+            product.setDish(dishes[i]);
+            product.setPrice(prices[i]);
+            arr[i] = product;
+        }
+
+//        Catalog catalog = new Catalog(arr);
+//        return (List<Product>) catalog;
+        return arr;
     }
 }

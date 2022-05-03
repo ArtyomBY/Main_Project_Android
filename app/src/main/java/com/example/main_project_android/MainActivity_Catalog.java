@@ -8,12 +8,21 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import com.example.main_project_android.classes.Basket;
 import com.example.main_project_android.classes.Catalog;
 import com.example.main_project_android.classes.Product;
+import com.example.main_project_android.fragments.BasketFragment;
+import com.example.main_project_android.fragments.CatalogFragment;
+import com.example.main_project_android.fragments.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity_Catalog extends Activity {
+public class MainActivity_Catalog extends AppCompatActivity {
 
 
     ListView lv_catalog;
@@ -25,31 +34,53 @@ public class MainActivity_Catalog extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_catalog);
 
+
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.catatlog_menu);
+        replaceFragment(new CatalogFragment());
+
         bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
                 case R.id.basket_menu:
-                    Intent intent = new Intent(this, BasketActivity.class);
-                    startActivity(intent);
+                    replaceFragment(new BasketFragment());
+//                    Intent intent = new Intent(this, BasketActivity.class);
+//                    startActivity(intent);
                     break;
                 case R.id.profil_menu:
-                    Intent intent2 = new Intent(this, UserProfileActivity.class);
-                    startActivity(intent2);
+                    replaceFragment(new ProfileFragment());
+//                    Intent intent2 = new Intent(this, UserProfileActivity.class);
+//                    startActivity(intent2);
+                    break;
+                case R.id.catatlog_menu:
+                    replaceFragment(new CatalogFragment());
                     break;
             }
+
 
             return true;
         });
 
-        lv_catalog = findViewById(R.id.product_list);
-        ProductCatalogAdapter adapter = new ProductCatalogAdapter(this, makeProduct());
-        lv_catalog.setAdapter(adapter);
+//        lv_catalog = findViewById(R.id.product_list);
+//        ProductCatalogAdapter adapter = new ProductCatalogAdapter(this, makeProduct());
+//        lv_catalog.setAdapter(adapter);
+
 
 //        Catalog catalog = new Catalog();
 //        catalog.product_create("Лапоть", 20,"", true, 1);
-        
+
+
     }
+
+
+    private void replaceFragment(Fragment fragment){
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.main_FrameLayout, fragment);
+        fragmentTransaction.commit();
+
+    }
+
 
 
     public Product[] makeProduct() {
@@ -69,6 +100,8 @@ public class MainActivity_Catalog extends Activity {
 //        return (List<Product>) catalog;
         return arr;
     }
+
+
     public void look_at_product(View view) {
         TextView tv = findViewById(R.id.textView);
         String str = tv.getText().toString();

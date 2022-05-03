@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import com.example.main_project_android.R;
 
@@ -60,6 +62,13 @@ public class BasketFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_basket, container, false);
+//        TextView tv = (TextView) v.findViewById(R.id.textView2);
+//        EditText et = (EditText) v.findViewById(R.id.editTextTextPassword2);
+//        tv.setText("Хуй знает что это");
+//        et.setHint("Введите пароль");
+
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_basket, container, false);
     }
