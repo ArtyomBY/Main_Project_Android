@@ -2,14 +2,16 @@ com/example/main_project_android/classes/Product.java
  com.example.main_project_android.classes.Product
 com/example/main_project_android/databinding/ActivityBasketBinding.java
  com.example.main_project_android.databinding.ActivityBasketBinding
-com/example/main_project_android/databinding/FragmentCatalogBinding.java
- com.example.main_project_android.databinding.FragmentCatalogBinding
+com/example/main_project_android/fragments/CatalogFragment.java
+ com.example.main_project_android.fragments.CatalogFragment
 com/example/main_project_android/classes/UserProfile.java
  com.example.main_project_android.classes.UserProfile
-com/example/main_project_android/classes/Catalog.java
- com.example.main_project_android.classes.Catalog
+com/example/main_project_android/databinding/FragmentCatalogBinding.java
+ com.example.main_project_android.databinding.FragmentCatalogBinding
 com/example/main_project_android/classes/Buyer.java
  com.example.main_project_android.classes.Buyer
+com/example/main_project_android/databinding/ActivityProductCatalogBinding.java
+ com.example.main_project_android.databinding.ActivityProductCatalogBinding
 com/example/main_project_android/classes/Basket.java
  com.example.main_project_android.classes.Basket
 com/example/main_project_android/databinding/ActivityOrderBinding.java
@@ -18,28 +20,30 @@ com/example/main_project_android/ProductCatalogAdapter.java
  com.example.main_project_android.ProductCatalogAdapter
 com/example/main_project_android/databinding/ActivityItemBasketBinding.java
  com.example.main_project_android.databinding.ActivityItemBasketBinding
+com/example/main_project_android/fragments/BasketFragment.java
+ com.example.main_project_android.fragments.BasketFragment
 com/example/main_project_android/databinding/ActivityItemProductCatalogBinding.java
  com.example.main_project_android.databinding.ActivityItemProductCatalogBinding
-com/example/main_project_android/databinding/OrderListActivityBinding.java
- com.example.main_project_android.databinding.OrderListActivityBinding
 com/example/main_project_android/databinding/ActivityLoginBinding.java
  com.example.main_project_android.databinding.ActivityLoginBinding
 com/example/main_project_android/BasketAdapter.java
  com.example.main_project_android.BasketAdapter
+com/example/main_project_android/fragments/ProductFragment.java
+ com.example.main_project_android.fragments.ProductFragment
 com/example/main_project_android/BuildConfig.java
  com.example.main_project_android.BuildConfig
 com/example/main_project_android/databinding/ActivityRegistrationBuyerBinding.java
  com.example.main_project_android.databinding.ActivityRegistrationBuyerBinding
 com/example/main_project_android/databinding/FragmentBasketBinding.java
  com.example.main_project_android.databinding.FragmentBasketBinding
-com/example/main_project_android/fragments/BasketFragment.java
- com.example.main_project_android.fragments.BasketFragment
-com/example/main_project_android/OrderActivity.java
- com.example.main_project_android.OrderActivity
 com/example/main_project_android/classes/Admin.java
  com.example.main_project_android.classes.Admin
+com/example/main_project_android/databinding/FragmentProfileBinding.java
+ com.example.main_project_android.databinding.FragmentProfileBinding
 com/example/main_project_android/classes/Wallet.java
  com.example.main_project_android.classes.Wallet
+com/example/main_project_android/databinding/FragmentProductBinding.java
+ com.example.main_project_android.databinding.FragmentProductBinding
 com/example/main_project_android/classes/Refill.java
  com.example.main_project_android.classes.Refill
 com/example/main_project_android/databinding/ActivityProductBinding.java
@@ -48,23 +52,23 @@ com/example/main_project_android/OrderListAdapter.java
  com.example.main_project_android.OrderListAdapter
 com/example/main_project_android/OrderList.java
  com.example.main_project_android.OrderList
-com/example/main_project_android/databinding/FragmentProfileBinding.java
- com.example.main_project_android.databinding.FragmentProfileBinding
-com/example/main_project_android/ProductActivity.java
- com.example.main_project_android.ProductActivity
+com/example/main_project_android/OrderActivity.java
+ com.example.main_project_android.OrderActivity
 com/example/main_project_android/classes/Order.java
  com.example.main_project_android.classes.Order
 com/example/main_project_android/databinding/ActivityUserProfileBinding.java
  com.example.main_project_android.databinding.ActivityUserProfileBinding
 com/example/main_project_android/fragments/ProfileFragment.java
  com.example.main_project_android.fragments.ProfileFragment
-com/example/main_project_android/databinding/ProductCatalogBinding.java
- com.example.main_project_android.databinding.ProductCatalogBinding
-com/example/main_project_android/fragments/CatalogFragment.java
- com.example.main_project_android.fragments.CatalogFragment
-com/example/main_project_android/BasketActivity.java
- com.example.main_project_android.BasketActivity
-com/example/main_project_android/MainActivity_Catalog.java
- com.example.main_project_android.MainActivity_Catalog
+com/example/main_project_android/databinding/ActivityOrderListBinding.java
+ com.example.main_project_android.databinding.ActivityOrderListBinding
+com/example/main_project_android/classes/Catalog.java
+ com.example.main_project_android.classes.Catalog
 com/example/main_project_android/UserProfileActivity.java
  com.example.main_project_android.UserProfileActivity
+com/example/main_project_android/BasketActivity.java
+ com.example.main_project_android.BasketActivity
+com/example/main_project_android/ProductActivity.java
+ com.example.main_project_android.ProductActivity
+com/example/main_project_android/MainActivity_ProductCatalog.java
+ com.example.main_project_android.MainActivity_ProductCatalog

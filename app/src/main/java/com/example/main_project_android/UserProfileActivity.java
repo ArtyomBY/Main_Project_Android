@@ -20,22 +20,22 @@ public class UserProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
 
-        bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        bottomNavigationView.setSelectedItemId(R.id.catatlog_menu);
-        bottomNavigationView.setOnItemSelectedListener(item -> {
-            switch (item.getItemId()){
-                case R.id.basket_menu:
-                    Intent intent = new Intent(this, BasketActivity.class);
-                    startActivity(intent);
-                    break;
-                case R.id.catatlog_menu:
-                    Intent intent2 = new Intent(this, MainActivity_Catalog.class);
-                    startActivity(intent2);
-                    break;
-            }
-
-            return true;
-        });
+//        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+//        bottomNavigationView.setSelectedItemId(R.id.catatlog_menu);
+//        bottomNavigationView.setOnItemSelectedListener(item -> {
+//            switch (item.getItemId()){
+//                case R.id.basket_menu:
+//                    Intent intent = new Intent(this, BasketActivity.class);
+//                    startActivity(intent);
+//                    break;
+//                case R.id.catatlog_menu:
+//                    Intent intent2 = new Intent(this, MainActivity_ProductCatalog.class);
+//                    startActivity(intent2);
+//                    break;
+//            }
+//
+//            return true;
+//        });
 
         profileImage = findViewById(R.id.profileImage);
         profile_name = findViewById(R.id.profile_name);

@@ -32,7 +32,7 @@
             android:name="com.example.main_project_android.ProductActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.main_project_android.MainActivity_Catalog"
+            android:name="com.example.main_project_android.MainActivity_ProductCatalog"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

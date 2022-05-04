@@ -56,8 +56,8 @@
 33-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:28:13-37
 34        <activity
 34-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:29:9-37:20
-35            android:name="com.example.main_project_android.MainActivity_Catalog"
-35-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:30:13-49
+35            android:name="com.example.main_project_android.MainActivity_ProductCatalog"
+35-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:30:13-56
 36            android:exported="true" >
 36-->C:\Development\Android_Studio_projects\Project_Stolovaya\Main_Project_Android\app\src\main\AndroidManifest.xml:31:13-36
 37            <intent-filter>

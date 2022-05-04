@@ -25,21 +25,4 @@ public class ProductActivity extends AppCompatActivity {
 
     }
 
-
-    public void put_in_basket(View view) {
-        //Basket basket = new Basket()
-        Intent i = new Intent(view.getContext(), BasketActivity.class);
-//        int a = 20;
-//        i.putExtra("dishPrice", a);
-        startActivity(i);
-        Toast.makeText(this, "Товар добавлен в корзину!", Toast.LENGTH_SHORT).show();
-    }
-
-//    public void look_at_product(View view) {
-//        TextView tv = findViewById(R.id.textView);
-//        String str = tv.getText().toString();
-//        Intent i = new Intent(view.getContext(), ProductActivity.class);
-//        i.putExtra("nd", str);
-//        startActivity(i);
-//    }
 }

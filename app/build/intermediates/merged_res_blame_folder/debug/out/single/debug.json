@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_order_list_activity.xml.flat",
-        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\order_list_activity.xml"
-    },
-    {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_kartoshka.jpeg.flat",
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\kartoshka.jpeg"
     },
@@ -64,6 +60,10 @@
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\catalog.png"
     },
     {
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_product_catalog.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_product_catalog.xml"
+    },
+    {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -76,8 +76,16 @@
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_product.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_product.xml"
+    },
+    {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_list.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\activity_order_list.xml"
     },
     {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_lupa.png.flat",
@@ -118,10 +126,6 @@
     {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ustrica.jpg.flat",
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\ustrica.jpg"
-    },
-    {
-        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_product_catalog.xml.flat",
-        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\product_catalog.xml"
     },
     {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
