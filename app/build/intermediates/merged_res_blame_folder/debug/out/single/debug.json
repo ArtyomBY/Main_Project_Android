@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_main_picture_shop.png.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\main_picture_shop.png"
+    },
+    {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_kartoshka.jpeg.flat",
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\drawable\\kartoshka.jpeg"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_wallet.xml.flat",
+        "source": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\src\\main\\res\\layout\\fragment_wallet.xml"
     },
     {
         "merged": "C:\\Development\\Android_Studio_projects\\Project_Stolovaya\\Main_Project_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_catalog.xml.flat",

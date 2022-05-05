@@ -70,5 +70,7 @@ public class BasketActivity extends AppCompatActivity {
 
     public void pay_for_the_shopping_cart(View view) {
 
+        
+
     }
 }

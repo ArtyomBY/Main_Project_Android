@@ -4,7 +4,7 @@ import android.widget.ImageView;
 
 public class UserProfile {
 
-    ImageView profile_picture;
+    //ImageView profile_picture;
     String fullName;
     String user_status;
 

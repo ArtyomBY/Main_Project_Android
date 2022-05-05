@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.main_project_android.R;
 
@@ -16,6 +18,11 @@ import com.example.main_project_android.R;
  * create an instance of this fragment.
  */
 public class ProfileFragment extends Fragment {
+
+
+    ImageView profileImage;
+    TextView profile_name, profile_type, profile_class, profile_school, profile_region;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,6 +68,16 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false);
+        View v = inflater.inflate(R.layout.fragment_profile, container, false);
+
+        profileImage = v.findViewById(R.id.profileImage);
+        profile_name = v.findViewById(R.id.profile_name);
+        profile_type = v.findViewById(R.id.profile_type);
+        profile_class = v.findViewById(R.id.profile_class);
+        profile_school = v.findViewById(R.id.profile_school);
+        profile_region = v.findViewById(R.id.profile_region);
+
+        profileImage.setImageResource(R.drawable.typical_user);
+        return v;
     }
 }

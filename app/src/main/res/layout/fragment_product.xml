@@ -39,12 +39,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30dp"
-                android:text="xxx"/>
+                android:text="xxx"
+                android:textColor="@color/color_price"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" ₽"
-                android:textSize="30dp"/>
+                android:textSize="30dp"
+                android:textColor="@color/color_price"/>
 
         </LinearLayout>
 
@@ -53,7 +55,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Положить в корзину"
-            android:onClick="put_in_basket"/>
+            android:onClick="put_in_basket"
+            android:backgroundTint="@color/green_app"/>
 
         <TextView
             android:layout_width="wrap_content"

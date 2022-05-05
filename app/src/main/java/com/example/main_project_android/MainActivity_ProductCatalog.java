@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.main_project_android.classes.Buyer;
 import com.example.main_project_android.fragments.BasketFragment;
 import com.example.main_project_android.fragments.CatalogFragment;
 import com.example.main_project_android.fragments.ProductFragment;
@@ -31,6 +32,9 @@ public class MainActivity_ProductCatalog extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_catalog);
 
+        Buyer buyer = new Buyer("Быков Артем Ильич", 10, "МБОУ сош №35", "г. Иваново, Ивановская обл.");
+        
+
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.catatlog_menu);
@@ -40,30 +44,25 @@ public class MainActivity_ProductCatalog extends AppCompatActivity {
             switch (item.getItemId()){
                 case R.id.basket_menu:
                     replaceFragment(new BasketFragment());
+                    bottomNavigationView.getMenu().findItem(R.id.basket_menu).setChecked(true);
 //                    Intent intent = new Intent(this, BasketActivity.class);
 //                    startActivity(intent);
                     break;
                 case R.id.profil_menu:
                     replaceFragment(new ProfileFragment());
+                    bottomNavigationView.getMenu().findItem(R.id.profil_menu).setChecked(true);
 //                    Intent intent2 = new Intent(this, UserProfileActivity.class);
 //                    startActivity(intent2);
                     break;
                 case R.id.catatlog_menu:
                     replaceFragment(new CatalogFragment());
+                    bottomNavigationView.getMenu().findItem(R.id.catatlog_menu).setChecked(true);
                     break;
             }
 
 
             return true;
         });
-
-//        lv_catalog = findViewById(R.id.product_list);
-//        ProductCatalogAdapter adapter = new ProductCatalogAdapter(this, makeProduct());
-//        lv_catalog.setAdapter(adapter);
-
-
-//        Catalog catalog = new Catalog();
-//        catalog.product_create("Лапоть", 20,"", true, 1);
 
 
     }
@@ -80,25 +79,6 @@ public class MainActivity_ProductCatalog extends AppCompatActivity {
 
 
 
-//    public Product[] makeProduct() {
-//        Product[] arr = new Product[3];
-//
-//        String[] dishes = {"Устрица", "Питца", "Пирог с картошкой"};
-//        int[] prices = {10, 35, 16};
-//
-//        for (int i = 0; i < arr.length; i++) {
-//            Product product = new Product();
-//            product.setDish(dishes[i]);
-//            product.setPrice(prices[i]);
-//            arr[i] = product;
-//        }
-//
-////        Catalog catalog = new Catalog(arr);
-////        return (List<Product>) catalog;
-//        return arr;
-//    }
-
-
     public void look_at_product(View view) {
         TextView tv = findViewById(R.id.textView);
         String str = tv.getText().toString();
@@ -111,9 +91,9 @@ public class MainActivity_ProductCatalog extends AppCompatActivity {
         //Basket basket = new Basket()
         replaceFragment(new BasketFragment());
 //        Intent i = new Intent(view.getContext(), BasketActivity.class);
-//        int a = 20;
 //        i.putExtra("dishPrice", a);
 //        startActivity(i);
+        bottomNavigationView.getMenu().findItem(R.id.basket_menu).setChecked(true);
         Toast.makeText(this, "Товар добавлен в корзину!", Toast.LENGTH_SHORT).show();
     }
 
